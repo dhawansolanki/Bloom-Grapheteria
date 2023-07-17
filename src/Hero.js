@@ -170,19 +170,19 @@ function Hero() {
 
     <footer>
     <div class="footer-row">
-      <div class="footer-item">
+      {/* <div class="footer-item">
         <img src="./images/Icon review.png" alt="Image 1"/>
         <img src="./images/Icon review.png" alt="Image 2"/>
         <img src="./images/Icon review.png" alt="Image 3"/>
         <h4>Name</h4>
-      </div>
+      </div> */}
     </div>
-    <div class="footer-row">
+    {/* <div class="footer-row">
       <div class="footer-item">
         <h4>Shape your Dreams here</h4>
       </div>
-    </div>
-    <div class="footer-row">
+    </div> */}
+    {/* <div class="footer-row">
       <div class="footer-item">
         <div class="column">
           <h5>Email</h5>
@@ -197,7 +197,7 @@ function Hero() {
           <p>123 Street, City, Country</p>
         </div>
       </div>
-    </div>
+    </div> */}
   </footer>
     </section>
 </div>
