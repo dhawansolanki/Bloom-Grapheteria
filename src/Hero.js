@@ -1,5 +1,6 @@
 import React from 'react'
 import Contact from './Contact'
+import Services from './Services'
 
 function Hero() {
   return (
@@ -156,7 +157,9 @@ function Hero() {
         <img src="./images/Icon review.png" alt="Icon of Dreams" class="iconReview" />  
 
     </section>
-    <section class="six"></section>
+    <section class="six">
+        <Services/>
+    </section>
     <section class="seven">
     <Contact/>
     </section>
