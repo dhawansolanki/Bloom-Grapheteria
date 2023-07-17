@@ -5,7 +5,7 @@ import Services from './Services'
 function Hero() {
   return (
     <div class="container1">
-    <section class="one">
+    <section class="one" id='home'>
         <div class="sec1">
             <img src="./images/Main Logo and tag line.png" alt="Bloom The Grapheteria 1" class="logomain" />  
         </div>
@@ -36,7 +36,7 @@ function Hero() {
             </div>
         </div>
     </section>
-    <section class="three">
+    <section class="three" id='work'>
 
         <img src="Images/icon dreams.png" alt="Icon of Dreams" class="iconDreams" />  
 
@@ -117,7 +117,7 @@ function Hero() {
         </div>
         
     </section>
-    <section class="four">
+    <section class="four" id="about">
         <div class="sec4">
             <img src="Images/about us.png" alt="Bloom The Grapheteria" class="Aboutus" />  
             <div class="herotext">
@@ -143,7 +143,7 @@ function Hero() {
             </div>
         </div>
     </section>
-    <section class="five">
+    <section class="five" id="reviews">
         <div class="herotext2">
             <p>
                 Reviews <br/> that came
@@ -157,10 +157,10 @@ function Hero() {
         <img src="./images/Icon review.png" alt="Icon of Dreams" class="iconReview" />  
 
     </section>
-    <section class="six">
+    <section class="six" id='services'>
         <Services/>
     </section>
-    <section class="seven">
+    <section class="seven" id="contact">
     <Contact/>
     </section>
     <section class="eight">
