@@ -676,3 +676,6 @@ footer {
     margin-top: 5px;
   }
   
+  html {
+    scroll-behavior:smooth;
+  }

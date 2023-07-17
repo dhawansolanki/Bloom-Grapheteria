@@ -1,6 +1,7 @@
 import React from 'react'
 import Contact from './Contact'
 import Services from './Services'
+import Reviews from './Reviews'
 
 function Hero() {
   return (
@@ -154,7 +155,9 @@ function Hero() {
                 <span class="imps22">satisfied customers.</span>  
             </p>
         </div>
+
         <img src="./images/Icon review.png" alt="Icon of Dreams" class="iconReview" />  
+        <Reviews/>
 
     </section>
     <section class="six" id='services'>
