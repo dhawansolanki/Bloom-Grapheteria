@@ -4,25 +4,24 @@ import "./styles/contact.scss"
 function Contact() {
   return (
     <div class="container d-flex justify-content-center align-items-center">
-	<form>
-		<h1 class="title text-center mb-4">Talk to Us</h1>
-
+		<img src="Images/Contact.png" alt="Bloom The Grapheteria" class="Contactus" />  
+	<form className='contactform'>
 			<div class="form-group position-relative">
 				<label for="formName" class="d-block">
 					<i class="icon" data-feather="user"></i>
 				</label>
-				<input type="text" id="formName" class="form-control form-control-lg thick" placeholder="Name"/>
+				<input type="text" id="formName" class="form-control form-control-lg thick" placeholder="Enter your Name"/>
 			</div>
 			<br/>
 			<div class="form-group position-relative">
 				<label for="formEmail" class="d-block">
 					<i class="icon" data-feather="mail"></i>
 				</label>
-				<input type="email" id="formEmail" class="form-control form-control-lg thick" placeholder="E-mail"/>
+				<input type="email" id="formEmail" class="form-control form-control-lg thick" placeholder="Enter your Email"/>
 			</div>
 		<br/>
 			<div class="form-group message">
-				<textarea id="formMessage" class="form-control form-control-lg" rows="15" placeholder="Mensagem"></textarea>
+				<textarea id="formMessage" class="form-control form-control-lg" rows="15" placeholder=""></textarea>
 			</div>
 			<br/>
 			<div class="text-center">

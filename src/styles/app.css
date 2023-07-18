@@ -433,6 +433,12 @@ section{
   max-height: 18vw;
   margin-left: 72vw;
 }
+.Contactus{
+  margin-top: 0.6vw;
+  max-width: 18vw;
+  max-height: 18vw;
+  margin-right: 72vw;
+}
 
 .sec4 p{
   font-family:roboto;
