@@ -48,6 +48,7 @@ svg {
 
 form {
 	min-width: 25rem;
+  width: 100%;
 	
 	.title {
 		font-family: 'Pacifico', cursive;
@@ -150,4 +151,30 @@ form {
 
 .contactlabeltext{
   color: #F37422;
+  margin-bottom: 1rem;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+}
+
+.contactlabeltext {
+  color: #F37422;
+  margin-bottom: 1rem;
+}
+
+/* New CSS style to align the submit button to the right */
+.text-right {
+  margin-top: 1rem;
+  margin-left: 27%;
+  display: flex;
+  justify-content: flex-end;
 }
