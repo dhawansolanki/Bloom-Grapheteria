@@ -14,7 +14,7 @@ function Services() {
         connects with your audience 
     </p>
 </div>
-      <img src="Images/icon Shapes(services).png" alt="icon Shapes(services).png" class="iconServices" />  
+      <img src="./images/icon Shapes(services).png" alt="icon Shapes(services).png" class="iconServices" />  
         <div class="cards-list">
   
   <div class="card_service scard1">

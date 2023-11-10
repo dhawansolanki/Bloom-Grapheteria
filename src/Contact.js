@@ -4,7 +4,7 @@ import "./styles/contact.scss"
 function Contact() {
   return (
     <div class="container d-flex justify-content-center align-items-center">
-  <img src="Images/Contact.png" alt="Bloom The Grapheteria" class="Contactus" />
+  <img src="./images/Contact.png" alt="Bloom The Grapheteria" class="Contactus" />
   <form class="contactform" action="https://formspree.io/f/xknlgjne">
     <div class="form-row">
       <div class="form-group col">

@@ -39,7 +39,7 @@ function Hero() {
     </section>
     <section class="three" id='work'>
 
-        <img src="Images/icon dreams.png" alt="Icon of Dreams" class="iconDreams" />  
+        <img src="./images/icon dreams.png" alt="Icon of Dreams" class="iconDreams" />  
 
         <div class="herotext1">
             <p>
@@ -120,7 +120,7 @@ function Hero() {
     </section>
     <section class="four" id="about">
         <div class="sec4">
-            <img src="Images/about us.png" alt="Bloom The Grapheteria" class="Aboutus" />  
+            <img src="./images/about us.png" alt="Bloom The Grapheteria" class="Aboutus" />  
             <div class="herotext">
                 <p>
                     At [Studio Name], we believe that great design is the backbone of effective communication.
