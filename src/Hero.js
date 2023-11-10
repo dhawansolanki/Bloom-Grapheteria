@@ -25,11 +25,11 @@ function Hero() {
                 <p>
                     Introducing 
                     <h4>Bloom Grapheteria</h4>Bloom Grapheteria 
-                    where creativity and strategy come together to Shape your
+                    where creativity and strategy come together to Shape your&nbsp;
                     <span class="imps">dreams</span>  
-                    for your business. 
-                    We are a team of experienced professionals with a passion 
-                    <span class="imps">for creating</span>  innovative and impactful
+                    &nbsp;for your business. 
+                    We are a team of experienced professionals with a passion&nbsp; 
+                    <span class="imps">for creating</span> &nbsp;innovative and impactful&nbsp;
                     <span class="imps">ads</span>  that help our clients 
                     stand out in their industry.
                 </p>
@@ -43,19 +43,19 @@ function Hero() {
 
         <div class="herotext1">
             <p>
-                Dreams <br/> that came
+                Dreams <br/> that came&nbsp;
                 <span class="imps1">true</span>  
             </p>
-            <p class="Deci1">Elevate your brand's visual storytelling with visually stunning and
+            <p class="Deci1">Elevate your brand's visual storytelling with visually stunning and&nbsp;
                 <span class="imps11">effective graphic</span>  design <br/> that captivates and 
                 connects with your audience 
             </p>
         </div>
 
         <div class="wrapper">
-            <i id="left" class="fa-solid fa-angle-left">
+            {/* <i id="left" class="fa-solid fa-angle-left">
                 <img src="./images/pre arow.png" alt=""/>
-            </i>
+            </i> */}
             <div class="carousel">
               <div class="card">
                   <div class="card-content1">
@@ -108,12 +108,12 @@ function Hero() {
                   </div>
               </div>
             </div>
-            <div class="moredreams">
+            {/* <div class="moredreams">
                 <h3>More</h3>
             </div>
             <i id="right" class="fa-solid fa-angle-right">
                 <img src="./images/next arow.png" alt=""/>
-            </i>
+            </i> */}
             
         </div>
         
@@ -144,22 +144,22 @@ function Hero() {
             </div>
         </div>
     </section>
-    <section class="five" id="reviews">
+    {/* <section class="five" id="reviews">
+        <img src="./images/Icon review.png" alt="Icon of Dreams" class="iconReview" />  
         <div class="herotext2">
             <p>
                 Reviews <br/> that came
                 <span class="imps2">true</span>  
             </p>
             <p class="Deci2">
-                Discover the benefits of our Services <br/>through the experiences of your 
+                Discover the benefits of our Services through the experiences of your  <br/>
                 <span class="imps22">satisfied customers.</span>  
             </p>
         </div>
 
-        <img src="./images/Icon review.png" alt="Icon of Dreams" class="iconReview" />  
         <Reviews/>
 
-    </section>
+    </section> */}
     <section class="six" id='services'>
         <Services/>
     </section>

@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Paytone One, Eczar SemiBold, Chathura;
+    font-family: 'Paytone One', 'Eczar SemiBold', 'Chathura';
     box-sizing: border-box;}
 
 body{
@@ -9,6 +9,7 @@ body{
     color: black;
     max-width: 100%;
     overflow-x: hidden;
+    /* font-family: 'Paytone One', sans-serif; */
 }    
 
 .container{
@@ -26,7 +27,7 @@ nav{
     margin-top: 1vw;
 }
 
-.logo{width: 6.5vw;
+.logo{width: 10.5vw;
     height: auto;
 }
 
@@ -39,7 +40,8 @@ nav ul li{
 nav ul li a{
     color: #00587B ;
     text-decoration: none;
-    font-size: 1vw;
+    font-size: 1.2vw;
+    font-weight: 900;
     position: relative;
 }
 
@@ -70,7 +72,7 @@ section{
     scroll-snap-align: start;
 }
 .sec1{
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,7 +119,7 @@ section{
   /*--------sec 2-----------------*/
 
   .sec2{
-    height: 100vh;
+    height: 95vh;
     display: flex;
     align-items: center;
 
@@ -132,7 +134,7 @@ section{
   }
 
   .herotext {
-    font-size: 2.2vw;
+    font-size: 1.8vw;
     padding-left: 6vw;
     margin-right: 12vw;
     color: #00587B;
@@ -147,7 +149,7 @@ section{
   }
 
   .more{
-    font-family:Chathura ;
+    font-family:'Chathura' ;
     font-weight: bolder;
     color: #00587B;
     margin-top: 3vh;
@@ -174,7 +176,13 @@ section{
     max-width: 5vw;
     max-height: 5vw;
     flex-basis: 30%;
-    margin-left: 15vw;
+    margin-left: 10vw;
+  }
+  .iconServices{
+    max-width: 5vw;
+    max-height: 5vw;
+    flex-basis: 30%;
+    margin-right: -12vw;
   }
   /*--------sec 2 col2 row1-----------------*/
   .herotext1 {
@@ -190,7 +198,7 @@ section{
   }
 
   .Deci1{
-    font-family:Chathura ;
+    font-family:'Chathura' ;
     font-weight: bolder;
     color: #00587B;
     margin-top: 1vh;
@@ -198,7 +206,7 @@ section{
 }
 
   .imps11{
-    font-family:Chathura ;
+    font-family:'Chathura' ;
     font-weight: bold;
     color: #F37321;
 }
@@ -437,13 +445,13 @@ section{
   margin-top: 0.6vw;
   max-width: 18vw;
   max-height: 18vw;
-  margin-right: 72vw;
+  margin-right: 50vw;
 }
 
 .sec4 p{
-  font-family:roboto;
-  font-size: 1.5vw; 
-  margin-top: 2vw;
+  font-family:'roboto';
+  font-size: 1.9vw; 
+  margin-top: 1.9vw;
 }
 
 /*--------sec 5-----------------*/
@@ -464,7 +472,8 @@ section{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  row-gap: 0.5vw;
+  row-gap: 0.1vw;
+  margin-bottom: 10%;
   align-items: center;
   justify-content: center;
 }
@@ -495,15 +504,15 @@ section{
   max-width: 5vw;
   max-height: 5vw;
   flex-basis: 30%;
-  margin-right: 15vw;
+  margin-left: 10vw;
 }
 /*--------sec 2 col2 row1-----------------*/
 .herotext2 {
   flex-basis: 55%;
   font-size: 1.6vw;
-  text-align: right;
-  padding-right: 6vw;
-  margin-left: 12vw;
+  text-align: left;
+  padding-left: 6vw;
+  margin-right: 12vw;
   color: #00587B;
 }
 
@@ -513,7 +522,7 @@ section{
 }
 
 .Deci2{
-  font-family:Chathura ;
+  font-family:'Chathura' ;
   font-weight: bolder;
   color: #00587B;
   margin-top: 1vh;
@@ -521,7 +530,7 @@ section{
 }
 
 .imps22{
-  font-family:Chathura ;
+  font-family:'Chathura' ;
   font-weight: bold;
   color: #F37321;
 }
@@ -533,7 +542,14 @@ section{
 
 
 
-
+.herotext3 {
+  flex-basis: 55%;
+  font-size: 1.6vw;
+  padding-right: 6vw;
+  margin-left: 12vw;
+  color: #00587B;
+  text-align: right;
+}
 
 
 
@@ -622,7 +638,13 @@ section{
 .iconDreams{
   margin-top: 30%;
 }
+.iconServices{
+  margin-top: 30%;
+}
 .herotext1{
+  font-size: 8.2vw;
+}
+.herotext3{
   font-size: 8.2vw;
 }
 .wrapper{

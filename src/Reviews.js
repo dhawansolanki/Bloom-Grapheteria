@@ -1,42 +1,127 @@
+// import React, { useState } from 'react';
+import './styles/reviews.css';
+
+// function Reviews() {
+//   const [activeCard, setActiveCard] = useState(2); // Start with the middle card (index 2)
+
+//   const prevCard = () => {
+//     setActiveCard((prev) => (prev - 1 + 5) % 5); // Loop through cards with modulus 5
+//   };
+
+//   const nextCard = () => {
+//     setActiveCard((prev) => (prev + 1) % 5); // Loop through cards with modulus 5
+//   };
+
+//   return (
+//     <div>
+//       <div className="darksoul-container">
+//         <div className="darksoul-cards-carousel">
+//           <div
+//             id="jscarousel-darksoul-cards-carousel-item-5"
+//             className={`card ${activeCard === 0 ? 'card-left-2' : activeCard === 1 ? 'card-left-1' : ''}`}
+//           >
+//             <div className="card-content">
+//               <div className="circle-image"></div>
+//               <div className="text-line">I really like the overall concept of the design, it feels fresh and modern. The colors used are very vibrant and capture the energy of our brand. I think the use of the different shapes used in the logo is well balanced and proportional. The simplicity of the design is also a plus, it makes it easy to recognize and remember. </div>
+//             </div>
+//           </div>
+
+//           <div
+//             id="jscarousel-darksoul-cards-carousel-item-4"
+//             className={`card ${activeCard === 0 ? 'card-left-1' : activeCard === 3 ? 'card-right-1' : ''}`}
+//           >
+//             <div className="card-content">
+//               <div className="circle-image"></div>
+//               <div className="text-line">I really like the overall concept of the design, it feels fresh and modern. The colors used are very vibrant and capture the energy of our brand. I think the use of the different shapes used in the logo is well balanced and proportional. The simplicity of the design is also a plus, it makes it easy to recognize and remember. </div>
+//             </div>
+//           </div>
+
+//           <div
+//             id="jscarousel-darksoul-cards-carousel-item-3"
+//             className={`card ${activeCard === 1 ? 'card-center' : activeCard === 4 ? 'card-right-1' : ''}`}
+//           >
+//             <div className="card-content">
+//               <div className="circle-image"></div>
+//               <div className="text-line">I really like the overall concept of the design, it feels fresh and modern. The colors used are very vibrant and capture the energy of our brand. I think the use of the different shapes used in the logo is well balanced and proportional. The simplicity of the design is also a plus, it makes it easy to recognize and remember. </div>
+//             </div>
+//           </div>
+
+//           <div
+//             id="jscarousel-darksoul-cards-carousel-item-2"
+//             className={`card ${activeCard === 2 ? 'card-center' : activeCard === 4 ? 'card-right-2' : ''}`}
+//           >
+//             <div className="card-content">
+//               <div className="circle-image"></div>
+//               <div className="text-line">I really like the overall concept of the design, it feels fresh and modern. The colors used are very vibrant and capture the energy of our brand. I think the use of the different shapes used in the logo is well balanced and proportional. The simplicity of the design is also a plus, it makes it easy to recognize and remember. </div>
+//             </div>
+//           </div>
+
+//           <div
+//             id="jscarousel-darksoul-cards-carousel-item-1"
+//             className={`card ${activeCard === 3 ? 'card-right-2' : activeCard === 2 ? 'card-right-1' : ''}`}
+//           >
+//             <div className="card-content">
+//               <div className="circle-image"></div>
+//               <div className="text-line">I really like the overall concept of the design, it feels fresh and modern. The colors used are very vibrant and capture the energy of our brand. I think the use of the different shapes used in the logo is well balanced and proportional. The simplicity of the design is also a plus, it makes it easy to recognize and remember. </div>
+//             </div>
+//           </div>
+//         </div>
+
+//         <div className="darksoul-cards-carousel-buttons">
+//           <button type="button" className="darksoul-btn-prev" onClick={prevCard}>
+//           <i id="right" class="fa-solid fa-angle-right">
+//                 <img src="./images/pre arow.png" alt=""/>
+//             </i> 
+//           </button>
+
+//           <button type="button" className="darksoul-btn-next" onClick={nextCard}>
+//           <i id="right" class="fa-solid fa-angle-right">
+//                 <img src="./images/next arow.png" alt=""/>
+//             </i> 
+//           </button>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default Reviews;
+
+
+
 import React from 'react'
-import "./styles/reviews.css"
 
-function Reviews() {
+const Reviews = () => {
   return (
-        <div>
-            <div class="darksoul-container">
-  <div class="darksoul-cards-carousel"> 
-         
-      <div id="jscarousel-darksoul-cards-carousel-item-1">
-            
-      </div>
-  
-      <div id="jscarousel-darksoul-cards-carousel-item-2">
-  
-      </div> 
-      
-      <div id="jscarousel-darksoul-cards-carousel-item-3">
-  
-      </div>
-      
-      <div id="jscarousel-darksoul-cards-carousel-item-4">
-  
-      </div>
-      
-      <div id="jscarousel-darksoul-cards-carousel-item-5" >
-  
-      </div>
-
+    <div>
+      <div id="menu">
+  <div id="nav">
+    <div id="prev">
+      <i class="fa-solid fa-chevron-left"></i>
+    </div>
+    <div id="next">
+      <i class="fa-solid fa-chevron-right"></i>
+    </div>
   </div>
+  <ul id="cards">
+    <li id="box1" class="list">
 
-  <div class="darksoul-cards-carousel-buttons">
-    {/* <button onclick="cardcarouselprev()" type="button" class="darksoul-btn-prev"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800"><g stroke-width="18" stroke="hsl(0, 0%, 0%)" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="matrix(-0.7071067811865475,0.7071067811865476,-0.7071067811865476,-0.7071067811865475,949.685424949238,399.99999999999994)"><line x1="357.5" y1="357.5" x2="442.5" y2="442.5" marker-end="url(#SvgjsMarker1522)"></line></g><defs><marker markerWidth="33" markerHeight="33" refX="16.5" refY="16.5" viewBox="0 0 33 33" orient="auto" id="SvgjsMarker1522"><polygon points="0,33 0,0 33,16.5" fill="hsl(0, 0%, 0%)"></polygon></marker></defs></svg></button> */}
-    
-    {/* <button onclick="cardcarouselnext()" type="button" class="darksoul-btn-next"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800"><g stroke-width="18" stroke="hsl(0, 0%, 0%)" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="matrix(0.7071067811865474,-0.7071067811865477,0.7071067811865477,0.7071067811865474,-181.68542494923804,400.0000000000001)"><line x1="357.5" y1="357.5" x2="442.5" y2="442.5" marker-end="url(#SvgjsMarker1403)"></line></g><defs><marker markerWidth="33" markerHeight="33" refX="16.5" refY="16.5" viewBox="0 0 33 33" orient="auto" id="SvgjsMarker1403"><polygon points="0,33 0,0 33,16.5" fill="hsl(0, 0%, 0%)"></polygon></marker></defs></svg></button> */}
-  </div>
+    </li>
+    <li id="box2" class="list">
 
-</div>
-        </div>
+    </li>
+    <li id="box3" class="list">
+
+    </li>
+    <li id="box4" class="list">
+
+    </li>
+    <li id="box5" class="list">
+
+    </li>
+  </ul>
+    </div>
+    </div>
   )
 }
 
