@@ -454,6 +454,14 @@ section{
   margin-top: 1.9vw;
 }
 
+/* Custom Paragraph Styling */
+@media screen and (max-width:780px) {
+  .sec4 p{
+    font-family:'roboto';
+    font-size: 4.3vw; 
+    margin-top: 1.9vw;
+  } 
+}
 /*--------sec 5-----------------*/
 
 .five{
@@ -488,6 +496,37 @@ section{
   align-items: center;
   justify-content: center;
 }
+
+
+
+@media screen and (max-width: 900px) {
+
+  /*--------sec 7 Mobile nEW mODIFIED-----------------*/
+
+.seven{
+  height: 200%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  row-gap: 10vw;
+  align-items: center;
+  justify-content: center;
+}
+
+  /*--------sec 8 Mobile nEW mODIFIED-----------------*/
+.eight{
+  height: 200%;
+  /* display: flex; */
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* row-gap: 0.5vw; */
+  align-items: center;
+  justify-content: center;
+}
+
+
+}
+
 /*--------sec 8-----------------*/
 
 .eight{
@@ -624,10 +663,9 @@ section{
   margin-left: 0%;
 }
 .herotext {
-  font-size: 2.2vw;
   padding-left: 6vw;
   font-size: 5.2vw !important;
-  margin-top: 25vw;
+  margin-top: 0vw;
   margin-left: 0;
   color: #00587B;
 }
@@ -659,13 +697,31 @@ section{
 .Aboutus{
   margin-left: 0;
 }
-.herotext{
 
+@media screen and (max-width: 748px) {
+  .Aboutus{
+    margin-top: 0.6vw;
+    max-width: 200px;
+    max-height: 100px;
+    margin-left: 55vw;
+  }
+  
 }
 }
 
 
 
+/* Custom Mobile View Design  */
+
+.sec4 {
+  p{
+
+    font-size: 18.2vw;
+  }
+  
+}
+
+/* Custom Mobile View Design End */
 
 
 

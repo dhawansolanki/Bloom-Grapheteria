@@ -6,6 +6,13 @@
     flex-wrap: wrap;
   }
   
+  .graphetira {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
   .card_service {
     margin: 40px;
     width: 300px;

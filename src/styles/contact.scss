@@ -181,3 +181,19 @@ form {
   display: flex;
   justify-content: flex-end;
 }
+
+
+@media screen and (max-width: 900px) {
+  .contactform {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+}
